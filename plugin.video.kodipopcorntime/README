@@ -9,23 +9,22 @@ With KODI Popcorn Time you can search for movies that you can see immediately in
 Download
 --------
 Check out the [Releases](https://github.com/Diblo/KODI-Popcorn-Time/releases) tab to download the ZIP file.
-
+Alpha test: [Test the new 0.7.0 alpha version](https://github.com/Diblo/KODI-Popcorn-Time/blob/master/plugin.video.kodipopcorntime/Test%20version%200.7.0%20alpha.md)
 
 Supported Platforms
 -------------------
-* Helix 14.x (KODI)
-* Gotham 13.x (XBMC) - This is still a pre-release
-* Windows x32 x64
+* XBMC/KODI 13.x and later
+* Windows x32 and x64
 * OS X x32 and x64
-* Linux x32 and x64
+* Linux x32, x64 and ARM
 * Raspberry Pi
-* Android 4.0+
+* Android ARM 4.0+
 
 
 How it works
 ------------
 KODI Popcorn Time is actually two parts:
-* _KODI Popcorn Time_: the addon written in Python.
+* KODI Popcorn Time: the add-on  written in Python.
 * `torrent2http`: a custom torrent client written in Go and leveraging libtorrent-rasterbar, that turns magnet links into HTTP endpoints, using sequential download.
 
 
@@ -82,5 +81,5 @@ KODI Popcorn Time will seed the file you're watching until it's finished playing
 
 #### The movie are suddenly paused and then interrupted/stopped. What can I do ?
 Probably your network is too slow and you are hitting a timeout used for HTTP on KODI.
-You can increase the timeout as documented [here](http://kodi.wiki/view/Advancedsettings.xml#playlisttimeout). Please
-note that increasing the timeout won't make your network faster, you just will wait more time before the torrent is interrupted.
+You can increase the time-out as documented [here](http://kodi.wiki/view/Advancedsettings.xml#playlisttimeout). Please
+note that increasing the time-out won't make your network faster, you just will wait more time before the torrent is interrupted.
