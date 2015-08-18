@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="plugin.video.kodipopcorntime" name="KODI Popcorn Time" version="0.6.4" provider-name="Diblo">
+    <addon id="plugin.video.kodipopcorntime" name="KODI Popcorn Time" version="0.6.5" provider-name="Diblo">
         <requires>
             <import addon="xbmc.python" version="2.14.0"/>
         </requires>
